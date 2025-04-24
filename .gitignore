@@ -1,0 +1,15 @@
+# Emacs backup and autosave files
+*~
+\#*\#
+.\#*
+
+elpa/
+straight/
+
+.cache/
+.lsp-session-v1
+tramp
+
+init.el~
+tutorial/
+
