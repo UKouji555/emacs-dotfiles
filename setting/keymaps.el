@@ -9,3 +9,7 @@
   (define-key neotree-mode-map (kbd ">") 'enlarge-window-horizontally)
   (define-key neotree-mode-map (kbd "<") 'shrink-window-horizontally))
 
+(setq select-enable-clipboard t)   ;; Enable clipboard interaction (copy/paste)
+(setq select-enable-primary t)     ;; Use primary selection (X11)
+
+
