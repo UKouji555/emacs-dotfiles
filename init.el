@@ -43,9 +43,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(aggressive-indent all-the-icons company corfu doom-themes ivy
-		       language-id lsp-mode lua-mode neotree
-		       nerd-icons reformatter typescript-mode)))
+   '(aggressive-indent all-the-icons company corfu doom-themes flycheck
+		       go-mode ivy language-id lsp-mode lua-mode
+		       neotree nerd-icons reformatter typescript-mode
+		       yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -62,6 +63,7 @@
 (load "init-neotree")
 (load "init-emacs-lisp")
 (load "init-doom-themes")
+(load "init-golang")
 
 (add-to-list 'load-path (expand-file-name "setting" user-emacs-directory))
 
