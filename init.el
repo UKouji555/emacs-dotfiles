@@ -42,7 +42,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages nil))
+ '(package-selected-packages
+   '(aggressive-indent all-the-icons company corfu doom-themes ivy
+		       language-id lsp-mode lua-mode neotree
+		       nerd-icons reformatter typescript-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -58,6 +61,7 @@
 (load "init-lua")
 (load "init-neotree")
 (load "init-emacs-lisp")
+(load "init-doom-themes")
 
 (add-to-list 'load-path (expand-file-name "setting" user-emacs-directory))
 
